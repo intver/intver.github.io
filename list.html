@@ -1883,8 +1883,8 @@ D.p(["E:/Visual Novel/(同人ソフト) [070511] [BLUEWATER] ダイア グノー
 				});
 
 
-				var sFiles = " files"; if(countFiles===1) sFiles = " file";
-				var sDirs = " folders"; if(countDirs===1) sDirs = " folder";
+				var sFiles = " ファイル"; if(countFiles===1) sFiles = " ファイル";
+				var sDirs = " フォルダー"; if(countDirs===1) sDirs = " フォルダー";
 				$("#list_footer_info_label").html( countDirs + sDirs + " (" + bytesToSize( subdirTotSizes )+ "), " + countFiles + sFiles + " (" + bytesToSize( dirs[ SelectedFolderID ][ dirs[ SelectedFolderID ].length-2 ] )+ ")" );
 
 				$("#treeview #" + SelectedFolderID ).addClass("treeview_bold");
